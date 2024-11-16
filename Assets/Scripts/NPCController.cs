@@ -10,7 +10,7 @@ public class NPCController : MonoBehaviour
     public float timeSpawn = 3f; // NPC spawn period
     private float nextSpawn; // Time to spawn the next NPC
     public float xRangeCoord = 20f; // Range of x coordinate to spawn the NPC
-
+    
     [Range(0, 100)]
     public int enemyRate = 50; // Rate of enemy spawn
     public GameObject PrefabEnemy; // Prefab of the enemy NPC
@@ -23,6 +23,10 @@ public class NPCController : MonoBehaviour
     }
 
     void Update() {
+        if (LogicScript.isPaused || LogicScript.isStopped) {
+            return;
+        }
+
         // Check if it is time to spawn the next NPC. If so, spawn the NPC and set the time to the next one
         if(Time.time > nextSpawn) {
             SpawnAndDespawn();
@@ -42,7 +46,7 @@ public class NPCController : MonoBehaviour
             NPC = Instantiate(PrefabEnemy, newLocation, Quaternion.identity);
         else 
             NPC = Instantiate(PrefabAlly, newLocation, Quaternion.identity);
+        
         Destroy(NPC, 3f);
     }
-
 }

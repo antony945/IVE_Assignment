@@ -8,7 +8,11 @@ public class GunController : MonoBehaviour
     public GameObject bulletPrefab;
     public float bulletSpeed = 100.0f; // Speed factor of the bullet
     void Update()
-    {        
+    {
+        if (LogicScript.isPaused || LogicScript.isStopped) {
+            return;
+        }
+
         Shoot();
     }
     public void Shoot()

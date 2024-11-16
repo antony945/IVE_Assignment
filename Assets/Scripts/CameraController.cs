@@ -15,6 +15,17 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Debug.Log("Is stopped?" + LogicScript.isStopped);
+
+        if (LogicScript.isPaused || LogicScript.isStopped) {
+            Debug.Log("Unlocked cursor");
+            Cursor.lockState = CursorLockMode.None;
+            return;
+        } else {
+            Debug.Log("Locked cursor");
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+
         // Get the mouse movement and set the rotation vector
         rotation.x += Input.GetAxis("Mouse X") * speedRotation * Time.deltaTime;
         rotation.y += Input.GetAxis("Mouse Y")  * speedRotation * Time.deltaTime;
