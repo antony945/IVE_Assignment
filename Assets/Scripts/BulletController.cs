@@ -1,10 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BulletController : MonoBehaviour
 {
+    public static int MAX_SCORE = 1000;
+    private string logEntry = string.Empty;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,15 +23,15 @@ public class BulletController : MonoBehaviour
 
         if (whois != "Walls")
         {
+            Debug.Log("HItted a object: " + whois);
+
             if (whois == "Enemy")
-            { // If the bullet hits an enemy, add 1 to the score.
-                Scoring(1);
+            { // If the bullet hits an enemy, handle that.
+                HandleHit();
             }
             else if (whois == "Ally")
-            { // If the bullet hits an ally, subtract 1 to the score.
-                Scoring(-1);
-                // Destroy the object.
-                Destroy(collision.gameObject);
+            { // If the bullet hits an ally, handle that.
+                HandleMiss();
             }
             else
             { // If the bullet hits anything else, log it.
@@ -35,17 +40,33 @@ public class BulletController : MonoBehaviour
 
             // Destroy collided object.
             Destroy(collision.gameObject);
+        
+            // Update UI
+            NPCController.UpdateUI();
         }
 
         // Destroy the bullet.   
         Destroy(gameObject);
     }
 
+    void HandleHit() {
+        // Give score based on how much time it miss
+        Scoring(Mathf.FloorToInt(TimerController.remainingTime/TimerController.DEFAULT_TIME * MAX_SCORE));
+        NPCController.REMAINING_TO_HIT--;
+    }
+
+    void HandleMiss() {
+        // Don't decrement score when miss
+        // Scoring(-200);
+        NPCController.CURRENT_MISS++;
+    }
+
     void Scoring(int score) {
         // Update the global score and print it in the UI.
         NPCController.POINTS+=score;
-        // Find the game object with an UI tag, access to its text component and update the content.
-        GameObject.FindWithTag("UI").GetComponent<Text>().text = "Score: " + (NPCController.POINTS);
+
+        logEntry = $"Score (BulletController), {NPCController.POINTS} , {DateTime.Now.ToString()} \n";
+        File.AppendAllText(NPCController.File_Path, logEntry);
     }
 
 }

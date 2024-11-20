@@ -1,0 +1,160 @@
+ Game  starts at: 11/20/2024 5:46:38 PM  
+Event,Result,Datetime
+Count Shot (GunController),1, 11/20/2024 5:46:42 PM 
+Count Shot (GunController),2, 11/20/2024 5:46:44 PM 
+Score (BulletController), 730 , 11/20/2024 5:46:44 PM 
+Count Shot (GunController),3, 11/20/2024 5:46:44 PM 
+Count Shot (GunController),4, 11/20/2024 5:46:45 PM 
+Score (BulletController), 1404 , 11/20/2024 5:46:45 PM 
+Count Shot (GunController),5, 11/20/2024 5:46:46 PM 
+Count Shot (GunController),6, 11/20/2024 5:46:47 PM 
+Score (BulletController), 1996 , 11/20/2024 5:46:47 PM 
+Count Shot (GunController),7, 11/20/2024 5:46:47 PM 
+Score (BulletController), 2555 , 11/20/2024 5:46:47 PM 
+Count Shot (GunController),1, 11/20/2024 6:57:19 PM 
+Count Shot (GunController),2, 11/20/2024 6:57:22 PM 
+Score (BulletController), 676 , 11/20/2024 6:57:22 PM 
+Count Shot (GunController),3, 11/20/2024 6:57:23 PM 
+Score (BulletController), 1291 , 11/20/2024 6:57:23 PM 
+Count Shot (GunController),4, 11/20/2024 6:57:24 PM 
+Score (BulletController), 1837 , 11/20/2024 6:57:24 PM 
+Count Shot (GunController),1, 11/20/2024 6:58:42 PM 
+Count Shot (GunController),2, 11/20/2024 6:58:43 PM 
+Score (BulletController), 875 , 11/20/2024 6:58:43 PM 
+Count Shot (GunController),3, 11/20/2024 6:58:45 PM 
+Score (BulletController), 1663 , 11/20/2024 6:58:45 PM 
+Final Result: , Score, 0
+***** Game Over (LogicScript), Game Over ,11/20/2024 6:59:07 PM , ***** 
+Count Shot (GunController),1, 11/20/2024 7:00:00 PM 
+Count Shot (GunController),2, 11/20/2024 7:00:02 PM 
+Score (BulletController), 853 , 11/20/2024 7:00:02 PM 
+Count Shot (GunController),3, 11/20/2024 7:00:03 PM 
+Score (BulletController), 1645 , 11/20/2024 7:00:03 PM 
+Count Shot (GunController),4, 11/20/2024 7:00:04 PM 
+Score (BulletController), 2377 , 11/20/2024 7:00:05 PM 
+Count Shot (GunController),5, 11/20/2024 7:00:06 PM 
+Score (BulletController), 3029 , 11/20/2024 7:00:06 PM 
+Count Shot (GunController),1, 11/20/2024 7:00:39 PM 
+Count Shot (GunController),2, 11/20/2024 7:00:40 PM 
+Score (BulletController), 873 , 11/20/2024 7:00:40 PM 
+Count Shot (GunController),3, 11/20/2024 7:00:41 PM 
+Score (BulletController), 1695 , 11/20/2024 7:00:41 PM 
+Count Shot (GunController),4, 11/20/2024 7:00:42 PM 
+Score (BulletController), 2457 , 11/20/2024 7:00:42 PM 
+Count Shot (GunController),5, 11/20/2024 7:00:44 PM 
+Score (BulletController), 3096 , 11/20/2024 7:00:44 PM 
+Count Shot (GunController),1, 11/20/2024 7:18:19 PM 
+Count Shot (GunController),2, 11/20/2024 7:18:20 PM 
+Score (BulletController), 828 , 11/20/2024 7:18:20 PM 
+Count Shot (GunController),3, 11/20/2024 7:18:20 PM 
+Score (BulletController), 1615 , 11/20/2024 7:18:20 PM 
+Count Shot (GunController),4, 11/20/2024 7:18:21 PM 
+Count Shot (GunController),5, 11/20/2024 7:18:22 PM 
+Score (BulletController), 2343 , 11/20/2024 7:18:22 PM 
+Count Shot (GunController),6, 11/20/2024 7:18:23 PM 
+Score (BulletController), 3001 , 11/20/2024 7:18:23 PM 
+Count Shot (GunController),1, 11/20/2024 7:18:25 PM 
+Score (BulletController), 955 , 11/20/2024 7:18:25 PM 
+Count Shot (GunController),2, 11/20/2024 7:18:25 PM 
+Score (BulletController), 1876 , 11/20/2024 7:18:26 PM 
+Count Shot (GunController),3, 11/20/2024 7:18:27 PM 
+Score (BulletController), 2697 , 11/20/2024 7:18:28 PM 
+Count Shot (GunController),1, 11/20/2024 7:19:49 PM 
+Count Shot (GunController),2, 11/20/2024 7:19:50 PM 
+Score (BulletController), 835 , 11/20/2024 7:19:50 PM 
+Count Shot (GunController),3, 11/20/2024 7:19:50 PM 
+Score (BulletController), 1625 , 11/20/2024 7:19:51 PM 
+Count Shot (GunController),4, 11/20/2024 7:19:51 PM 
+Score (BulletController), 2368 , 11/20/2024 7:19:52 PM 
+Count Shot (GunController),5, 11/20/2024 7:19:52 PM 
+Count Shot (GunController),6, 11/20/2024 7:19:53 PM 
+Score (BulletController), 3031 , 11/20/2024 7:19:53 PM 
+Count Shot (GunController),1, 11/20/2024 7:20:26 PM 
+Count Shot (GunController),2, 11/20/2024 7:20:27 PM 
+Count Shot (GunController),3, 11/20/2024 7:20:30 PM 
+Count Shot (GunController),4, 11/20/2024 7:20:31 PM 
+Count Shot (GunController),5, 11/20/2024 7:20:32 PM 
+Score (BulletController), 667 , 11/20/2024 7:20:32 PM 
+Count Shot (GunController),1, 11/20/2024 7:22:10 PM 
+Count Shot (GunController),2, 11/20/2024 7:22:11 PM 
+Count Shot (GunController),3, 11/20/2024 7:22:12 PM 
+Score (BulletController), 796 , 11/20/2024 7:22:12 PM 
+Count Shot (GunController),4, 11/20/2024 7:22:13 PM 
+Score (BulletController), 1559 , 11/20/2024 7:22:13 PM 
+Count Shot (GunController),5, 11/20/2024 7:22:14 PM 
+Score (BulletController), 2258 , 11/20/2024 7:22:14 PM 
+Count Shot (GunController),1, 11/20/2024 7:23:34 PM 
+Count Shot (GunController),2, 11/20/2024 7:23:35 PM 
+Count Shot (GunController),3, 11/20/2024 7:23:36 PM 
+Count Shot (GunController),4, 11/20/2024 7:23:36 PM 
+Score (BulletController), 777 , 11/20/2024 7:23:37 PM 
+Count Shot (GunController),5, 11/20/2024 7:23:37 PM 
+Score (BulletController), 1526 , 11/20/2024 7:23:37 PM 
+Count Shot (GunController),6, 11/20/2024 7:23:38 PM 
+Score (BulletController), 2244 , 11/20/2024 7:23:38 PM 
+Count Shot (GunController),1, 11/20/2024 7:23:40 PM 
+Score (BulletController), 936 , 11/20/2024 7:23:40 PM 
+Count Shot (GunController),2, 11/20/2024 7:23:41 PM 
+Score (BulletController), 1800 , 11/20/2024 7:23:42 PM 
+Count Shot (GunController),1, 11/20/2024 7:23:44 PM 
+Score (BulletController), 907 , 11/20/2024 7:23:44 PM 
+Count Shot (GunController),2, 11/20/2024 7:23:45 PM 
+Score (BulletController), 1768 , 11/20/2024 7:23:45 PM 
+Count Shot (GunController),3, 11/20/2024 7:23:46 PM 
+Score (BulletController), 2577 , 11/20/2024 7:23:46 PM 
+Count Shot (GunController),4, 11/20/2024 7:23:47 PM 
+Score (BulletController), 3333 , 11/20/2024 7:23:47 PM 
+Count Shot (GunController),5, 11/20/2024 7:23:48 PM 
+Score (BulletController), 4054 , 11/20/2024 7:23:48 PM 
+Count Shot (GunController),1, 11/20/2024 7:25:09 PM 
+Count Shot (GunController),2, 11/20/2024 7:25:10 PM 
+Score (BulletController), 835 , 11/20/2024 7:25:10 PM 
+Count Shot (GunController),3, 11/20/2024 7:25:11 PM 
+Score (BulletController), 1620 , 11/20/2024 7:25:11 PM 
+Count Shot (GunController),4, 11/20/2024 7:25:12 PM 
+Score (BulletController), 2358 , 11/20/2024 7:25:12 PM 
+Count Shot (GunController),5, 11/20/2024 7:25:13 PM 
+Score (BulletController), 3042 , 11/20/2024 7:25:13 PM 
+Count Shot (GunController),1, 11/20/2024 7:25:17 PM 
+Score (BulletController), 859 , 11/20/2024 7:25:17 PM 
+Count Shot (GunController),2, 11/20/2024 7:25:18 PM 
+Count Shot (GunController),3, 11/20/2024 7:25:19 PM 
+Score (BulletController), 1623 , 11/20/2024 7:25:19 PM 
+Count Shot (GunController),4, 11/20/2024 7:25:19 PM 
+Score (BulletController), 2350 , 11/20/2024 7:25:20 PM 
+Count Shot (GunController),1, 11/20/2024 7:28:32 PM 
+Count Shot (GunController),2, 11/20/2024 7:28:33 PM 
+Score (BulletController), 826 , 11/20/2024 7:28:33 PM 
+Count Shot (GunController),3, 11/20/2024 7:28:33 PM 
+Score (BulletController), 1615 , 11/20/2024 7:28:34 PM 
+Count Shot (GunController),4, 11/20/2024 7:28:35 PM 
+Score (BulletController), 2334 , 11/20/2024 7:28:35 PM 
+Count Shot (GunController),5, 11/20/2024 7:28:37 PM 
+Score (BulletController), 2968 , 11/20/2024 7:28:37 PM 
+Count Shot (GunController),1, 11/20/2024 8:06:37 PM 
+Count Shot (GunController),2, 11/20/2024 8:06:47 PM 
+Score (BulletController), 679 , 11/20/2024 8:06:47 PM 
+Count Shot (GunController),1, 11/20/2024 8:07:22 PM 
+Final Result: , Score, 0
+***** Game Over (LogicScript), Game Over ,11/20/2024 8:07:40 PM , ***** 
+Count Shot (GunController),1, 11/20/2024 8:18:19 PM 
+Count Shot (GunController),2, 11/20/2024 8:18:20 PM 
+Count Shot (GunController),3, 11/20/2024 8:18:21 PM 
+Score (BulletController), 818 , 11/20/2024 8:18:21 PM 
+Count Shot (GunController),4, 11/20/2024 8:18:22 PM 
+Score (BulletController), 1557 , 11/20/2024 8:18:23 PM 
+Count Shot (GunController),1, 11/20/2024 8:18:25 PM 
+Score (BulletController), 942 , 11/20/2024 8:18:25 PM 
+Count Shot (GunController),2, 11/20/2024 8:18:26 PM 
+Score (BulletController), 1832 , 11/20/2024 8:18:26 PM 
+Count Shot (GunController),1, 11/20/2024 8:18:28 PM 
+Count Shot (GunController),2, 11/20/2024 8:18:28 PM 
+Score (BulletController), 907 , 11/20/2024 8:18:29 PM 
+Count Shot (GunController),3, 11/20/2024 8:18:29 PM 
+Count Shot (GunController),4, 11/20/2024 8:18:30 PM 
+Score (BulletController), 1751 , 11/20/2024 8:18:30 PM 
+Count Shot (GunController),5, 11/20/2024 8:18:30 PM 
+Count Shot (GunController),6, 11/20/2024 8:18:31 PM 
+Score (BulletController), 2543 , 11/20/2024 8:18:31 PM 
+Count Shot (GunController),7, 11/20/2024 8:18:33 PM 
+Score (BulletController), 3241 , 11/20/2024 8:18:33 PM 

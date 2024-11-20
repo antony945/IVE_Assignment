@@ -1,4 +1,3 @@
-repository "IVE_Assignment/IVE_Assignment@20067359180352@cloud"
+rep "IVE_Assignment/IVE_Assignment@20067359180352@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"

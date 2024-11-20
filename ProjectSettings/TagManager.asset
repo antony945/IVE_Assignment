@@ -9,6 +9,9 @@ TagManager:
   - Enemy
   - Ally
   - Walls
+  - Timer
+  - Hit
+  - Miss
   layers:
   - Default
   - TransparentFX
